@@ -3,3 +3,43 @@ body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
+
+/* Banner related styles */
+.banner {
+    display: flex;
+    background-color: #E554731A;
+    align-items: center;
+    padding: 0 150px;
+    justify-content: space-between;
+    gap: 50px;
+
+}
+.banner-item{
+    width: 50%;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60) font-size: 10px;
+    font-weight: 400;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    font-size: 15px;
+    font-weight: 700px;
+    padding: 10px 15px;
+   
+}
+
+.banner-img {
+    padding-top: 50px;
+}
