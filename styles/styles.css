@@ -4,6 +4,12 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.primary-text {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
 /* Banner related styles */
 .banner {
     display: flex;
@@ -14,7 +20,8 @@ body {
     gap: 50px;
 
 }
-.banner-item{
+
+.banner-item {
     width: 50%;
 }
 
@@ -25,11 +32,6 @@ body {
 }
 
 
-.banner-description {
-    color: rgba(39, 39, 39, 0.60) font-size: 10px;
-    font-weight: 400;
-}
-
 .btn-primary {
     border-radius: 8px;
     background: #E55473;
@@ -37,9 +39,106 @@ body {
     font-size: 15px;
     font-weight: 700px;
     padding: 10px 15px;
-   
+
 }
 
 .banner-img {
     padding-top: 50px;
+}
+
+/* Featured related styles */
+
+.featured-container {
+    margin-top: 100px;
+
+}
+
+.featured-text {
+    text-align: center;
+}
+
+.featured-title {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.featured-flowers {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 24px;
+
+
+}
+
+.featured-flower-1 {
+    background-color: #A7216226;
+
+    border-radius: 200px 200px 0px 0px;
+}
+
+.featured-flower-2 {
+    background-color: #0597A026;
+
+    border-radius: 200px 200px 0px 0px;
+}
+
+.featured-flower-3 {
+    background-color: #477D1126;
+
+    border-radius: 200px 200px 0px 0px;
+}
+
+.services {
+    margin: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2727270D;
+    padding: 30px 50px;
+    text-align: center;
+
+
+
+}
+
+#off {
+    color: #E55473;
+}
+
+.discount-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #E554730D;
+    max-width: 100%;
+    padding: 50px 50px;
+}
+
+.discount-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.instagram {
+    text-align: center;
+}
+
+.insta-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.insta-img{
+    display: flex;
+    margin-top: 50px;
+    gap: 20px;
+    margin-left: 50px;
+   
+}
+.insta-img > img{
+    width: 280px;
+
 }
